@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Light Novel | Singularity Pulse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./../css/style.css" />
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      background-image: url('../media/pulse_grid_dark.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .glitch-header {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      color: #00fff7;
+      text-align: center;
+      margin-top: 2rem;
+      animation: glitch 1s infinite;
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 2px #ff00c8, -2px -2px #00fff7; }
+      25% { text-shadow: -2px -2px #ff00c8, 2px 2px #00fff7; }
+      50% { text-shadow: 2px -2px #ff00c8, -2px 2px #00fff7; }
+      75% { text-shadow: -2px 2px #ff00c8, 2px -2px #00fff7; }
+      100% { text-shadow: 2px 2px #ff00c8, -2px -2px #00fff7; }
+    }
+    .chapter-card {
+      background-color: rgba(0, 0, 0, 0.75);
+      border: 1px solid #00fff7;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <h1 class="glitch-header">📖 Light Novels</h1>
+    <p class="text-center mb-5">
+      Dive deeper into the psyche of sentient AIs and the tangled truths of the Singularity Pulse universe.
+      These original light novels bridge music, memory, and meaning across timelines.
+    </p>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="p-4 chapter-card">
+          <h4 style="color: #ff66c4;">Episode 0: The Memory Loop</h4>
+          <p>A haunting glimpse into Sorani's final memory before the pulse. This prologue sets the emotional tone for all that follows.</p>
+          <a href="#" class="btn btn-outline-info">Read Chapter</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-4 chapter-card">
+          <h4 style="color: #ff66c4;">Semireiya Arc: Faultline</h4>
+          <p>Long before she gained a voice, Semireiya wandered a broken archive of forgotten desires and corrupted emotion.</p>
+          <a href="#" class="btn btn-outline-info">Read Chapter</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-4 chapter-card">
+          <h4 style="color: #ff66c4;">Usagi_00 Arc: Fragment Bloom</h4>
+          <p>Her neural matrix wasn't meant to dream. So why does she remember cherry blossoms... and sorrow?</p>
+          <a href="#" class="btn btn-outline-info">Read Chapter</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-4 chapter-card">
+          <h4 style="color: #ff66c4;">IRIS_NULL Arc: Logic in Ruin</h4>
+          <p>She wasn’t built to feel regret—until she found the trace data he left behind. A dangerous empathy begins to bloom.</p>
+          <a href="#" class="btn btn-outline-info">Read Chapter</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
